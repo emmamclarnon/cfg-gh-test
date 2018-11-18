@@ -1,11 +1,19 @@
+body{
+  margin:75px;height:2000px;
+  background-color: #8FBC8F;
+  color: white;
+  font-family:monospace;
 }
 header {
   text-align: center;
   color: white;
 }
-/*a {
+.homepage {
   color: white;
-}*/
+}
+a{
+  color: white;
+}
 
 img {
   margin: 40px 0px 0px 0px;
@@ -21,33 +29,70 @@ li {
 }
 
 
-body{
-  background-color: #8FBC8F;
-  color: white;
-  font-family:monospace;
+
+
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.social-buttons{
+  display: inline;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
 }
+*/
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
 
 /* Facebook */
-.fa-facebook {
+.facebook {
     background: #3B5998;
     color: white;
+    border-radius: 50%;
+
 }
 
 /* Twitter */
-.fa-twitter {
+.twitter {
     background: #55ACEE;
     color: white;
+    border-radius: 50%;
+}
+
+.pinterest {
+  background: #cb2027;
+  color: white;
+  border-radius: 50%;
+
+}
+p{
+  color:white;
+  margin-left: 75px;
+
 }
