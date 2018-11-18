@@ -1,0 +1,29 @@
+body{
+  background-color: grey;
+  color: white;
+}
+
+.btn-twitter{
+  background-color: #00acee;
+  border: #009ad5;
+  color: #ffffff
+}
+
+.btn-facebook{
+  background-color: #4868ac;
+  border: #314776;
+  color: #ffffff;
+}
+
+.btn-pinterest{
+  background-color: #b62f26;
+  border: #b62f26;
+  color: #ffffff;
+
+}
+.jumbotron{
+  background-image: url("images/fruit-and-veg.jpg");
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  color: white;
+}
