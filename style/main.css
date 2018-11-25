@@ -96,4 +96,8 @@ p{
   margin-left: 75px;
 
 }
-#mapid { height: 180px; }
+#mapid { height: 400px;
+        width:600px;}
+.leaflet-tile { border: 0px; }
+.leaflet{border:0px;}
+.map{border-radius: 0px;}
