@@ -7,10 +7,12 @@ body{
 header {
   text-align: center;
   color: white;
+  font-size: 24px;
 }
 .homepage {
   color: white;
 }
+
 a{
   color: white;
 }
@@ -28,27 +30,6 @@ li {
   padding: 0px 10px 0px 10px;
 }
 
-
-
-
-/*.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
-
-.social-buttons{
-  display: inline;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-*/
 .icon-bar {
   position: fixed;
   top: 50%;
