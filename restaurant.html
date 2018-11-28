@@ -2,41 +2,61 @@
 <html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129757372-1"></script>
-<script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129757372-1"></script>
+  <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-129757372-1');
 </script>
-
 <title> Sustainable Restaurants </title>
 
-  <meta name="viewpoint" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" type="text/css" href="style/main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="jquery-3.3.1.min.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-  crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-  crossorigin=""></script>
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+crossorigin=""></script>
 </head>
 <body>
-<header>
-Sustainable Restaurants in Leeds
-</header>
-<h2> Restaurants offering sustainable food in Leeds:
-  <div class="list">
+
+  <nav>
+    <img class="log"  src="images/logo.png">
+    <a href="https://emmamclarnon.github.io/cfg-gh-test/index.html"> Home </a>
+    <a href="https://emmamclarnon.github.io/cfg-gh-test/about.html"> About </a>
+    <a href="https://emmamclarnon.github.io/cfg-gh-test/recipes.html"> Recipes </a>
+    <a href="https://emmamclarnon.github.io/cfg-gh-test/restaurant.html"> Restaurants </a>
+    <a href="https://emmamclarnon.github.io/cfg-gh-test/contact.html"> Contact </a>
+  </nav>
+  <header>
+    Sustainable Restaurants in Leeds
+  </header>
+  <h2> Restaurants offering sustainable food in Leeds
+    <div class="rest_info">
+      <h3>Seven Arts<h3>
+
+        <p>This bar is a not-for-profit, independent arts space.  First set up in 2007, it hosts a range of live music
+          and comedy, as well as <a href="http://www.cafescientifique.org/index.php?option=com_contentbuilder&title=uk-leeds-chapel-allerton&controller=details&id=1&record_id=127&Itemid=478&limitstart=0&filter_order=">Cafe Scientifique</a> and art exhibitions. As well as being an arts space, it also serves great food and delicious beers.</p>
 
 
-</h2>
- <div id="mapid"></div>
- <script src = "javascript/leaflet.js"></script>
+          <h3>LS6 Cafe</h3>
+          <p> One of the oldest cafes in Leeds, LS6 has nursed many a hangover through the medium of breakfast.
+            It sources food locally and ensures it comes from sustainable suppliers and farms.  Supporting local business
+            and a Sunday film night with an emphasis on social issues, what's not to love?</p>
+
+            <h3>  Nichols Vegetarian Delicatessen</h3>
+
+            <h3>  Inkwell Arts</h3>
+          </div>
+        </h2>
+        <div id="mapid"></div>
+        <script src = "javascript/leaflet.js"></script>
 
 
-</body>
+      </body>
 
-</html>
+      </html>
