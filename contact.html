@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type=text/css href="/style/main.css"
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129757372-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-129757372-1');
+  </script>
+
+  <title> Contact Us </title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="jquery-3.3.1.min.js"></script>
   </head>
-  <body>
-    <h1>Contact Us</h1>
+  <body class="contact-us">
+    <header>
+      <nav>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/index.html"> Home </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/about.html"> About </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/recipes.html"> Recipes </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/restaurant.html"> Restaurants </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/contact.html"> Contact </a>
+      </nav>
+    </header>
     <img src="images/old-phone.png" alt="grey telephone"><br>
     You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local, seasonal and environmentally friendly food, what you should name your puppy…
     anything we can help with!<br> We promise we’re really nice and no question is ever a silly one.
-    <form>
+    <form class="contactform">
       Name<br>
-        <input type="text" name="firstname">
-        <input type="text" name="lastname">
+        <input type="text" name="firstname" placeholder="Your first name..">
+        <input type="text" name="lastname" placeholder="Your last name..">
         <br><br>
       Email<br>
-        <input type="email" name="email">
+        <input type="email" name="email" placeholder="Your email address..">
       <br><br>
       Select a topic from the drop-down.
       <br>
       <select name="Topic">
-        <option value="Restaurants">Restaurants</option>
-        <option value="Option 2">Option 2</option>
+        <option value="Add Restaurants">Add Restaurants</option>
+        <option value="Remove Restaurant">Remove Restaurant</option>
         <option value="Option 3">Option 3</option>
         <option value="Option 4">Option4</option>
       </select>

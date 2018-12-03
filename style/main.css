@@ -154,5 +154,10 @@ img {
   margin:75px;
   color: white;
   font-size: 16px;
-
+}
+.contactform input{
+    width: 100%;
+}
+.contactform textarea{
+  width:100%
 }
