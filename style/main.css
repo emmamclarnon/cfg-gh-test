@@ -1,12 +1,13 @@
+
 nav {
   width:100%;
   display:block;
-padding: 0px 80px;
-overflow: hidden;
-background-color: #808080;
-margin:0px;
+  padding: 0px 80px;
+  overflow: hidden;
+  background-color: #808080;
+  margin:0px;
   font-size: 24px;
-/*  width: 100%;
+  /*  width: 100%;
   height: 50px;
   display: block;
   float:left;
@@ -14,16 +15,16 @@ margin:0px;
   left:0;
   background-color: #808080;
   position: 200px;
-padding: 20px;
-*/
+  padding: 20px;
+  */
 
 }
 nav a {
   display: block;
   float:left;
-color: white;
-text-align: center;
-padding: 0px 8px 0px 20px;
+  color: white;
+  text-align: center;
+  padding: 35px 8px 0px 20px;
   /*
   display: block;
   float:left;
@@ -44,8 +45,7 @@ padding: 0px 8px 0px 20px;
   border-radius: 0px;
   border-width: 0px;
   margin:0px;
-  height:97%;
-  width:5%;
+  max-width: 100%;
 }
 nav a:hover{
   background-color: #8FBC8F;
@@ -58,13 +58,9 @@ nav a:hover{
 }
 
 header {
-  text-align: center;
   color: white;
   font-size: 24px;
-/*  margin:75px;*/
 }
-
-
 
 body{
   margin:75px;/*height:2000px;*/
@@ -77,7 +73,9 @@ body{
 .homepage {
   color: white;
 }
-
+h1{
+  text-align: center;
+}
 a{
   color: white;
 }
@@ -86,6 +84,7 @@ img {
   margin: 60px 0px 0px 0px;
   border: 7px solid white;
   border-radius: 20px;
+  max-width: 100%;
 
 }
 
@@ -96,7 +95,6 @@ img {
   border-radius: 50%;
   padding:8px 10px;
   margin:5px;
-
 }
 
 .twitter {
@@ -116,11 +114,9 @@ img {
 
 }
 
-
-p{
+.index_page p{
   color:white;
-  /*margin-left: 75px;*/
-
+  margin-left: 75px;
 }
 /*size of the map*/
 #mapid { height: 400px;
@@ -132,15 +128,31 @@ p{
   .leaflet-marker-icon{border:0px;}
 
   .rest_info p{
-    margin: 75px;
-    font-size: 16px;
     text-align: left;
-    display: block;
+    font-size: 16px;
+    margin:75px;
+    color: white;
   }
   .rest_info h3{
     margin: 75px;
     color: grey;
     font-size: 18px;
     font-weight: bolder;
-    text-align: justify;
+    text-align: left;
   }
+
+  h2{
+    margin: 75px;
+    font-size:24px;
+  }
+.rest_header header{
+  margin: 75px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.rest_header p{
+  margin:75px;
+  color: white;
+  font-size: 16px;
+
+}

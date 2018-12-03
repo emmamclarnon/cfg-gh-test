@@ -12,6 +12,9 @@ var aubIcon = L.icon({
   iconUrl: 'aub.png',
   iconSize:[50, 50]
 });
-L.marker([53.815101 , 	-1.562214] ,{icon: aubIcon, title: 'LS6 Cafe'}).addTo(map).bindPopup("LS6 Cafe \n W: http://www.sevenleeds.co.uk");
-L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts Cafe',icon: aubIcon}).addTo(map).bindPopup("Seven Arts Cafe");
+L.marker([53.815101 , 	-1.562214] ,{icon: aubIcon, title: 'LS6'}).addTo(map).bindPopup("LS6 ");
+L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts',icon: aubIcon}).addTo(map).bindPopup("Seven Arts");
+L.marker([53.8283 , 	-1.5370],{title: 'Nichols Vegetarian\n Delicatessen',icon: aubIcon}).addTo(map).bindPopup("Nichols Vegetarian\n Delicatessen");
+L.marker([53.8249 , 	-1.5361],{title: 'Inkwell Arts',icon: aubIcon}).addTo(map).bindPopup("Inkwell Arts");
+
 //L.marker([53.815101 , 	-1.562214], {icon: aubIcon}).addTo(map).bindPopup("LS6 Cafe");
