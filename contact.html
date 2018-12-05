@@ -27,17 +27,28 @@
         <a href="https://emmamclarnon.github.io/cfg-gh-test/contact.html"> Contact </a>
       </nav>
     </header>
+    <div class="sansnav">
     <img src="images/old-phone.png" alt="grey telephone"><br>
+    <article>
     You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local, seasonal and environmentally friendly food, what you should name your puppy…
-    anything we can help with!<br> We promise we’re really nice and no question is ever a silly one.
-    <form class="contactform">
+    anything we can help with!<br> <br>
+    We promise we’re really nice and no question is ever a silly one.
+  </article>
+    <br> <br>
+    <div clas>
+    <form>
+      <div class="inputname">
       Name<br>
         <input type="text" name="firstname" placeholder="Your first name..">
         <input type="text" name="lastname" placeholder="Your last name..">
         <br><br>
+      </div>
+      <div class="inputemail">
       Email<br>
         <input type="email" name="email" placeholder="Your email address..">
       <br><br>
+    </div>
+    <div class="formdropdown">
       Select a topic from the drop-down.
       <br>
       <select name="Topic">
@@ -46,13 +57,25 @@
         <option value="Option 3">Option 3</option>
         <option value="Option 4">Option4</option>
       </select>
+    </div>
       <br><br>
-      <textarea name="message" rows="10" cols="30">
+      <div class="formtextarea">
+      <textarea name="message" rows="10" cols="40">
         Type your message here.
       </textarea>
+    </div>
       <br><br>
+      <div class="formsubmit">
         <input type="submit" value="Submit">
         <input type="reset">
+      </div>
       </form>
+    </div>
+  </div>
   </body>
+  <script>
+  $("submit").on("click", function() {
+    alert("your query has been sent!")
+  })
+ </script>
 </html>
