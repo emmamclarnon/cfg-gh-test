@@ -154,18 +154,37 @@ img {
   color: white;
   font-size: 16px;
 }
+.contact-us {
+  text-align: center;
+}
 .inputname input {
-    max-width: 500px;
+    max-width: 100%;
+    padding: 10px 30px;
   }
+.inputemail input {
+  max-width: 100%;
+  padding: 10px 30px;
+}
 .formtextarea textarea {
-  max-width: 500px;
+  max-width: 100%;
+  padding: 10px 50px;
 }
 article {
-  max-width: 500px;
+  max-width: 100%;
+}
+.sansnav img {
+  border-radius: 20px;
+  max-width: 100%;
 }
 .sansnav {
   margin: 0px auto;
   padding: 30px;
+}
+.formsubmit input {
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    height: 44px;
 }
 @media (max-width: 500px) {
   body {

@@ -28,14 +28,22 @@
       </nav>
     </header>
     <div class="sansnav">
-    <img src="images/old-phone.png" alt="grey telephone"><br>
+    <img src="images/old-phone.png" alt="grey telephone" style="width: 50%;"><br>
     <article>
-    You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local, seasonal and environmentally friendly food, what you should name your puppy…
+    You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local,<br> seasonal and environmentally friendly food, what you should name your puppy…
     anything we can help with!<br> <br>
     We promise we’re really nice and no question is ever a silly one.
   </article>
     <br> <br>
-    <div clas>
+    <div class="formalert" role="alert" aria-live="assertive">Please fill in a valid value for all required fields:
+    <br>
+    <strong>NAME,</strong>
+    <strong>EMAIL,</strong>
+    <strong>TOPIC,</strong>
+    <strong>QUESTION</strong>
+    <br><br>
+  </div>
+    <div class="contact-form">
     <form>
       <div class="inputname">
       Name<br>
@@ -74,8 +82,5 @@
   </div>
   </body>
   <script>
-  $("submit").on("click", function() {
-    alert("your query has been sent!")
-  })
  </script>
 </html>
