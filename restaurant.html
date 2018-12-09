@@ -23,9 +23,10 @@ integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9
 crossorigin=""></script>
 </head>
 <body>
-    <header>
-      <nav>
-  <div class="nav_bar">
+
+  <header>
+    <nav>
+      <div class="nav_bar">
         <img class="log"  src="images/temp_logo.png">
         <a href="https://emmamclarnon.github.io/cfg-gh-test/index.html"><i class="fa fa-fw fa-home"></i> Home </a>
         <a href="https://emmamclarnon.github.io/cfg-gh-test/about.html"> <i class="fa fa-fw fa-user"></i>About </a>
@@ -35,10 +36,10 @@ crossorigin=""></script>
 
       </nav>
     </div>
-
+  <div class="rest">
     <h1>  Sustainable Restaurants in Leeds </h1>
-    </header>
-<div class="rest_header">
+  </header>
+  <div class="rest_header">
     <p>
       There are a number of restaurants and cafes in Leeds offering sustainable food choices.  We have
       listed some of our favourites and will update this list as we discover more restaurants.
@@ -56,53 +57,60 @@ crossorigin=""></script>
     </p>
 
 
-  <div class="ls6">
-    <a href="#mapid" onclick="check()"> LS6 Cafe</a>
+    <div class="ls6">
+      <a href="#mapid" onclick="check()"> LS6 Cafe</a>
 
-    <p> One of the oldest cafes in Leeds, LS6 has nursed many a hangover through the medium of breakfast.
-      It sources food locally and ensures it comes from sustainable suppliers and farms.  Supporting local business
-      and a Sunday film night with an emphasis on social issues, what's not to love?</p>
-    </div>
-    <div class="nichols">
-      <a href= "#mapid" onclick="check()">Nichols Vegetarian Delicatessen</a>
-
-      <p> Offering vegetarian and vegan options since 2012, this small dwelling has lots to offer those who
-        wish to eat non-animal alternatives.  Situated in Chapel Allerton, it offers a pleasant place for lunch or dinner
-        out of the buzz of the city.
-      </p>
-    </div>
-    <div class="inkwell">
-      <a href="#mapid" onclick="check()"> InkWell Arts </a>
-      <p>
-        A safe and creative art space with a focus on postive mental health experiences, this cafe is ran by
-        volunteers and staff.  It offers a selection of vegetarian and vegan food for those who are taking a class, or
-        those who want to pop in for a coffee and sandwich.
+      <p> One of the oldest cafes in Leeds, LS6 has nursed many a hangover through the medium of breakfast.
+        It sources food locally and ensures it comes from sustainable suppliers and farms.  Supporting local business
+        and a Sunday film night with an emphasis on social issues, what's not to love?</p>
       </div>
-    </div>
+      <div class="nichols">
+        <a href= "#mapid" onclick="check()">Nichols Vegetarian Delicatessen</a>
 
-    <div id="mapid">
-      <script src = "javascript/leaflet.js"></script>
-    </div>
-    <script type='text/javascript'>
+        <p> Offering vegetarian and vegan options since 2012, this small dwelling has lots to offer those who
+          wish to eat non-animal alternatives.  Situated in Chapel Allerton, it offers a pleasant place for lunch or dinner
+          out of the buzz of the city.
+        </p>
+      </div>
+      <div class="inkwell">
+        <a href="#mapid" onclick="check()"> InkWell Arts </a>
+        <p>
+          A safe and creative art space with a focus on postive mental health experiences, this cafe is ran by
+          volunteers and staff.  It offers a selection of vegetarian and vegan food for those who are taking a class, or
+          those who want to pop in for a coffee and sandwich.
+        </div>
+      </div>
 
-    function ls6()
-    {
-      L.marker([53.815101 , 	-1.562214] ,{icon: tomIcon, title: 'LS6'}).addTo(map).bindPopup("LS6 ");
-    }
+      <div id="mapid">
+        <script src = "javascript/leaflet.js"></script>
+      </div>
+      <script type='text/javascript'>
 
-        function seven()
-        {
-          L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts',icon: tomIcon}).addTo(map).bindPopup("Seven Arts");
-        }
-        function nichols()
-        {
+      function ls6()
+      {
+        L.marker([53.815101 , 	-1.562214] ,{icon: tomIcon, title: 'LS6'}).addTo(map).bindPopup("LS6 ");
+      }
+
+      function seven()
+      {
+        L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts',icon: tomIcon}).addTo(map).bindPopup("Seven Arts");
+      }
+      function nichols()
+      {
         L.marker([53.8283 , 	-1.5370],{title: 'Nichols Vegetarian\n Delicatessen',icon: tomIcon}).addTo(map).bindPopup("Nichols Vegetarian\n Delicatessen");
-        }
-        function inkwell()
-        {
-      L.marker([53.8249 , 	-1.5361],{title: 'Inkwell Arts',icon: tomIcon}).addTo(map).bindPopup("Inkwell Arts");
-        }
-  </script>
-</body>
+      }
+      function inkwell()
+      {
+        L.marker([53.8249 , 	-1.5361],{title: 'Inkwell Arts',icon: tomIcon}).addTo(map).bindPopup("Inkwell Arts");
+      }
+      </script>
+    </div>
+    <div class="icon-bar">
+      Copyright (c) Girls Fawkes 2018.  All Rights Reserved.
+      <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.pinterest.com" class="pinterest"><i class="fa fa-pinterest"></i></a>
+    </div>
+    </body>
 
-</html>
+    </html>
