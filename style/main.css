@@ -200,9 +200,7 @@ img {
       height: 44px;
   }
   @media (max-width: 500px) {
-    body {
-      background-color: red;
-    }
+
     h1 {
           font-size: 36px;
         }
