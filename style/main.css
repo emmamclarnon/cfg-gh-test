@@ -54,11 +54,31 @@ h2{
 
 }
 @media screen and (max-width: 500px) {
+  *{  max-width: 480px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
   .navbar a {
+    max-width: 480px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
     float: none;
     display: block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .nichols a{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  h1 {
+    font-size: 36px;
   }
 }
+
 img {
   margin: 60px 0px 0px 0px;
   border: 7px solid white;
@@ -107,6 +127,13 @@ img {
   margin-left: 75px;
   font-size: 20px;
 }
+
+.icon-bar{
+  margin-top:10px;
+  margin-left:85px;
+  margin-bottom: 15px;
+
+}
 /*size of the map*/
 #mapid { height: 400px;
   width:600px; margin:75px;}
@@ -138,17 +165,19 @@ img {
 
   }
   .ls6 a{
-    margin: 0px 0px 0px 75px;
+    margin:75px;
     color: grey;
     font-size: 24px;
     font-weight: bolder;
 
   }
   .seven_arts a {
+
     margin: 75px;
     color: grey;
     font-size: 24px;
     font-weight: bolder;
+
 
   }
 
@@ -157,23 +186,24 @@ img {
     color: grey;
     font-size: 24px;
     font-weight: bolder;
-    text-align: left;
+
   }
   .nichols a{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     margin: 75px;
     color: grey;
     font-size: 24px;
     font-weight: bolder;
-    text-align: left;
 
   }
   .contact-us {
     text-align: center;
   }
   .inputname input {
-      max-width: 100%;
-      padding: 10px 30px;
-    }
+    max-width: 100%;
+    padding: 10px 30px;
+  }
   .inputemail input {
     max-width: 100%;
     padding: 10px 30px;
@@ -194,14 +224,8 @@ img {
     padding: 30px;
   }
   .formsubmit button {
-      padding: 10px 50px;
-      margin-top: 20px;
-      font-weight: bold;
-      height: 44px;
-  }
-  @media (max-width: 500px) {
-
-    h1 {
-          font-size: 36px;
-        }
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    height: 44px;
   }
