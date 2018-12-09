@@ -8,13 +8,11 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var aubIcon = L.icon({
-  iconUrl: 'aub.png',
+var tomIcon = L.icon({
+  iconUrl: 'tom.png',
   iconSize:[50, 50]
 });
-L.marker([53.815101 , 	-1.562214] ,{icon: aubIcon, title: 'LS6'}).addTo(map).bindPopup("LS6 ");
-L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts',icon: aubIcon}).addTo(map).bindPopup("Seven Arts");
-L.marker([53.8283 , 	-1.5370],{title: 'Nichols Vegetarian\n Delicatessen',icon: aubIcon}).addTo(map).bindPopup("Nichols Vegetarian\n Delicatessen");
-L.marker([53.8249 , 	-1.5361],{title: 'Inkwell Arts',icon: aubIcon}).addTo(map).bindPopup("Inkwell Arts");
-
-//L.marker([53.815101 , 	-1.562214], {icon: aubIcon}).addTo(map).bindPopup("LS6 Cafe");
+L.marker([53.815101 , 	-1.562214] ,{icon: tomIcon, title: 'LS6'}).addTo(map).bindPopup("LS6 ");
+L.marker([53.828075 , 	-1.537715],{title: 'Seven Arts',icon: tomIcon}).addTo(map).bindPopup("Seven Arts");
+L.marker([53.8283 , 	-1.5370],{title: 'Nichols Vegetarian\n Delicatessen',icon: tomIcon}).addTo(map).bindPopup("Nichols Vegetarian\n Delicatessen");
+L.marker([53.8249 , 	-1.5361],{title: 'Inkwell Arts',icon: tomIcon}).addTo(map).bindPopup("Inkwell Arts");
