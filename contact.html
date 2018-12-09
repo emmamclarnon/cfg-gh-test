@@ -35,52 +35,53 @@
     We promise we’re really nice and no question is ever a silly one.
   </article>
     <br> <br>
+    <p>
     <div class="formalert" role="alert" aria-live="assertive">Please fill in a valid value for all required fields:
-    <br>
     <strong>NAME,</strong>
     <strong>EMAIL,</strong>
     <strong>TOPIC,</strong>
     <strong>QUESTION</strong>
-    <br><br>
+  </p>
   </div>
     <div class="contact-form">
-    <form>
-      <div class="inputname">
-      Name<br>
-        <input type="text" name="firstname" placeholder="Your first name..">
-        <input type="text" name="lastname" placeholder="Your last name..">
+    <form name="contact" action"">
+      <fieldset>
+        <div class="inputname">
+          <p>Name</p>
+          <input type="text" name="firstname" id="firstname" size="30" value="" placeholder="Your first name..">
+          <input type="text" name="lastname" id="lastname" size="30" value="" placeholder="Your last name..">
+          <br><br>
+        </div>
+        <div class="inputemail">
+        <p>Email</p>
+        <input type="email" name="email" id="email" size="76" value="" placeholder="Your email address..">
         <br><br>
-      </div>
-      <div class="inputemail">
-      Email<br>
-        <input type="email" name="email" placeholder="Your email address..">
-      <br><br>
-    </div>
-    <div class="formdropdown">
-      Select a topic from the drop-down.
-      <br>
-      <select name="Topic">
-        <option value="Add Restaurants">Add Restaurants</option>
-        <option value="Remove Restaurant">Remove Restaurant</option>
-        <option value="Option 3">Option 3</option>
-        <option value="Option 4">Option4</option>
-      </select>
-    </div>
-      <br><br>
-      <div class="formtextarea">
-      <textarea name="message" rows="10" cols="40">
-        Type your message here.
-      </textarea>
-    </div>
-      <br><br>
-      <div class="formsubmit">
-        <input type="submit" value="Submit">
-        <input type="reset">
-      </div>
-      </form>
+        </div>
+        <div class="formdropdown">
+        <p>Select a topic from the drop-down.</p>
+        <select name="Topic">
+          <option value="Submit Restaurants">Add Restaurants</option>
+          <option value="Remove Restaurant">Remove Restaurant</option>
+          <option value="Submit Recipes">Option 3</option>
+          <option value="Other">Option4</option>
+        </select>
+        </div>
+        <br><br>
+        <div class="formtextarea">
+        <textarea name="message" id="textarea" placeholder="type your message here" rows="10" cols="66">
+        </textarea>
+        </div>
+        <br><br>
+        <div class="formsubmit">
+        <button type="submit" id"submit-btn" class="button">Submit</button>
+        <button type="reset" id"reset-btn"class="button">Reset</button>
+        </div>
+      </fieldset>
+    </form>
     </div>
   </div>
   </body>
   <script>
+  $("#submit-btn").submit();
  </script>
 </html>
