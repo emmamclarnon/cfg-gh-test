@@ -1,107 +1,53 @@
-* {
-  box-sizing: border-box;
-}
-header {
-  color: white;
-  font-size: 24px;
-}
-body{
-  margin:75px;/*height:2000px;*/
-  padding:0px;
+nav {
+  width:100%;
+  display:block;
+  padding: 0px 80px;
+  overflow: hidden;
+  background-color: #808080;
   margin:0px;
-  background-color: #8FBC8F;
+  font-size: 24px;
+  /*  width: 100%;
+  height: 50px;
+  display: block;
+  float:left;
+  top: 0%;
+  left:0;
+  background-color: #808080;
+  position: 200px;
+  padding: 20px;
+  */
+
+}
+nav a {
+  display: block;
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 35px 8px 0px 20px;
+  /*
+  display: block;
+  float:left;
   color: white;
   font-family:monospace;
-}
-h1{
-  text-align: center;
-}
-a{
-  color: white;
-}
+  padding: 8px;
+  /*padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;*/
+  text-decoration: none;
 
-h2{
-  margin: 75px;
-  font-size:24px;
-}
-.nav_bar{
-  overflow: hidden;
-  background: rgba(128, 128, 128, 1);
-  font-size: 22px;
 }
 .log{
-  float: left;
-  border: none;
-  width:350px;
-  margin:0px;
-}
-.nav_bar a {
-  background: rgba(128, 128, 128, 1);
-  text-decoration: none;
-  margin:0;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  padding: 14px 6px;
-  text-decoration: none;
   float:left;
-  font-size: 22px;
+  padding:0px 0px;
+  display: block;
+  border-radius: 0px;
+  border-width: 0px;
+  margin:0px;
+  max-width: 100%;
 }
-.nav_bar input[type=text] {
-  float: right;
-  padding: 6px 6px;
-  border: none;
-  margin-top:12px;
-  margin-right: 10px;
-  font-size: 17px;
-}
-.nav_bar a:hover{
+nav a:hover{
   background-color: #8FBC8F;
-  text-decoration: none;
-
-}
-@media screen and (max-width: 500px) {
-
-  .nav a, .nav input[type=text] {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .nav input[type=text] {
-    border: 1px solid #ccc;
-  }
-
-  .nichols a{
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  }
-
-  h1 {
-    font-size: 36px;
-  }
-  .facebook{
-    color:white;
-  }
-  .twitter{
-    color:white;
-  }
-  .pinterest{
-    color: white;
-  }
-
-  .icon-bar a{
-    padding:2px;
-    text-align: right;
-  }
-}
-
-img {
-  margin: 60px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
 }
 .center {
   display: block;
@@ -110,9 +56,35 @@ img {
   width: 40%;
 }
 
+header {
+  color: white;
+  font-size: 24px;
+}
 
+body{
+  margin:75px;/*height:2000px;*/
+  padding:0px;
+  margin:0px;
+  background-color: #8FBC8F;
+  color: white;
+  font-family:monospace;
+}
 .homepage {
   color: white;
+}
+h1{
+  text-align: center;
+}
+a{
+  color: white;
+}
+
+img {
+  margin: 60px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+  max-width: 100%;
+
 }
 
 
@@ -144,20 +116,7 @@ img {
 .index_page p{
   color:white;
   margin-left: 75px;
-  font-size: 20px;
 }
-.icon-bar {
-  margin-top:10px;
-  margin-left:75px;
-  margin-bottom: 15px;
-  text-align:   left;
-}
-.icon-bar a{
-  text-align:   center;
-}
-
-
-
 /*size of the map*/
 #mapid { height: 400px;
   width:600px; margin:75px;}
@@ -168,73 +127,46 @@ img {
   .leaflet-marker-icon{border:0px;}
 
   .rest_info p{
-
-    margin-left: 75px;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+    margin:75px;
     color: white;
   }
   .rest_info h3{
-
+    margin: 75px;
     color: grey;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bolder;
     text-align: left;
   }
 
+  h2{
+    margin: 75px;
+    font-size:24px;
+  }
+  .rest_header header{
+    margin: 75px;
+    font-size: 30px;
+    font-weight: bold;
+  }
   .rest_header p{
     margin:75px;
     color: white;
-    font-size: 22px;
-
-  }
-  .ls6 a{
-    margin:75px;
-    color: grey;
-    font-size: 24px;
-    font-weight: bolder;
-
-  }
-  .seven_arts a {
-
-    margin: 75px;
-    color: grey;
-    font-size: 24px;
-    font-weight: bolder;
-
-
-  }
-
-  .inkwell a{
-    margin: 75px;
-    color: grey;
-    font-size: 24px;
-    font-weight: bolder;
-
-  }
-  .nichols a{
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    margin: 75px;
-    color: grey;
-    font-size: 24px;
-    font-weight: bolder;
-
+    font-size: 16px;
   }
   .contact-us {
     text-align: center;
   }
-  .inputname input {
-    max-width: 100%;
-    padding: 10px 30px;
+  .formname {
+    width: 45%;
+    padding: 10px
   }
-  .inputemail input {
-    max-width: 100%;
-    padding: 10px 30px;
+  .formemail {
+    width: 92%;
+    padding: 10px
   }
-  .formtextarea textarea {
-    max-width: 100%;
-    padding: 10px 50px;
+  .typemessage {
+    width: 50%;
   }
   article {
     max-width: 100%;
@@ -252,4 +184,20 @@ img {
     margin-top: 20px;
     font-weight: bold;
     height: 44px;
+  }
+  .hiddenmessage {
+    visibility: hidden;
+    display: none;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+    }
+    .contactfieldset {
+      max-width: 400px;
+    }
+
+    .formemail {
+      width: auto;
+    }
   }
