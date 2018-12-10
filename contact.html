@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129757372-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129757372-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-129757372-1');
+  gtag('config', 'UA-129757372-1');
   </script>
 
   <title> Contact Us </title>
@@ -16,84 +16,94 @@
   <link rel="stylesheet" type="text/css" href="style/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="jquery-3.3.1.min.js"></script>
-  </head>
-  <body class="contact-us">
-    <header>
-      <nav>
-        <a href="https://emmamclarnon.github.io/cfg-gh-test/index.html"> Home </a>
-        <a href="https://emmamclarnon.github.io/cfg-gh-test/about.html"> About </a>
-        <a href="https://emmamclarnon.github.io/cfg-gh-test/recipes.html"> Recipes </a>
-        <a href="https://emmamclarnon.github.io/cfg-gh-test/restaurant.html"> Restaurants </a>
-        <a href="https://emmamclarnon.github.io/cfg-gh-test/contact.html"> Contact </a>
+</head>
+<body class="contact-us">
+  <header>
+    <nav>
+      <div class="nav_bar">
+        <img class="log"  src="images/temp_logo.png">
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/index.html"><i class="fa fa-fw fa-home"></i> Home </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/about.html"> <i class="fa fa-fw fa-user"></i>About </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/recipes.html"><i  class ="fa fa-fw fa-edit"></i>  Recipes </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/restaurant.html"><i  class ="fa fa-fw fa-coffee"></i> Restaurants </a>
+        <a href="https://emmamclarnon.github.io/cfg-gh-test/contact.html"><i class="fa fa-fw fa-envelope"></i> Contact </a>
+        <input type="text" placeholder="Search..">
       </nav>
-    </header>
-    <div class="sansnav">
+    </div>
+  </header>
+  <div class="sansnav">
     <img src="images/old-phone.png" alt="grey telephone" style="width: 50%;"><br>
     <article>
-    You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local,<br> seasonal and environmentally friendly food, what you should name your puppy…
-    anything we can help with!<br> <br>
-    We promise we’re really nice and no question is ever a silly one.
-  </article>
+      You’ve got some q’s and we’ve got tons and tons of a’s. Ask us about an sustainably grown foods, where to buy local,<br> seasonal and environmentally friendly food, what you should name your puppy…
+      anything we can help with!<br> <br>
+      We promise we’re really nice and no question is ever a silly one.
+    </article>
     <br> <br>
     <p>
-    <div class="formalert" role="alert" aria-live="assertive">Please fill in a valid value for all required fields:
-    <strong>NAME,</strong>
-    <strong>EMAIL,</strong>
-    <strong>TOPIC,</strong>
-    <strong>QUESTION</strong>
-  </p>
-  </div>
+      <div class="formalert" role="alert" aria-live="assertive">Please fill in a valid value for all required fields:
+        <strong>NAME,</strong>
+        <strong>EMAIL,</strong>
+        <strong>TOPIC,</strong>
+        <strong>QUESTION</strong>
+      </p>
+    </div>
     <div class="contact-form">
-    <form name="contact" action"">
-      <fieldset>
-        <div id="contactfieldset">
-        <div class="inputname">
-          <p>Name</p>
-          <input class="formname" type="text" name="firstname" id="firstname" value="" placeholder="Your first name..">
-          <input class="formname" type="text" name="lastname" id="lastname" value="" placeholder="Your last name..">
-          <br><br>
-        </div>
-        <div class="inputemail">
-        <p>Email</p>
-        <input class="formemail" type="email" name="email" id="email" size="76" value="" placeholder="Your email address..">
-        <br><br>
-        </div>
-        <div class="formdropdown">
-        <p>Select a topic from the drop-down.</p>
-        <select name="Topic">
-          <option value="Submit Restaurants">Add Restaurants</option>
-          <option value="Remove Restaurant">Remove Restaurant</option>
-          <option value="Submit Recipes">Option 3</option>
-          <option value="Other">Option4</option>
-        </select>
-        </div>
-        <br><br>
-        <div class="formtextarea">
-        <textarea class="typemessage" name="message" id="textarea" placeholder="type your message here" rows="10" cols="66">
-        </textarea>
-        </div>
-        <br><br>
-        <div class="formsubmit">
-        <button type="submit" id="submit-btn" class="button">Submit</button>
-        <button type="reset" id="reset-btn"class="button">Reset</button>
-        </div>
-      </div>
-      <div id="formsentmessage" class="hiddenmessage">
-        <p>Your query has been submitted to Sustainable Foods, Yorkshire</p>
-      </div>
-      </fieldset>
-    </form>
+      <form name="contact" action"">
+        <fieldset>
+          <div id="contactfieldset">
+            <div class="inputname">
+              <p>Name</p>
+              <input class="formname" type="text" name="firstname" id="firstname" value="" placeholder="Your first name..">
+              <input class="formname" type="text" name="lastname" id="lastname" value="" placeholder="Your last name..">
+              <br><br>
+            </div>
+            <div class="inputemail">
+              <p>Email</p>
+              <input class="formemail" type="email" name="email" id="email" value="" placeholder="Your email address..">
+              <br><br>
+            </div>
+            <div class="formdropdown">
+              <p>Select a topic from the drop-down.</p>
+              <select name="Topic">
+                <option value="Submit Restaurants">Add Restaurants</option>
+                <option value="Remove Restaurant">Remove Restaurant</option>
+                <option value="Submit Recipes">Option 3</option>
+                <option value="Other">Option4</option>
+              </select>
+            </div>
+            <br><br>
+            <div class="formtextarea">
+              <textarea class="typemessage" name="message" id="textarea" placeholder="type your message here" rows="10" cols="66">
+              </textarea>
+            </div>
+            <br><br>
+            <div class="formsubmit">
+              <button type="submit" id="submit-btn" class="button">Submit</button>
+              <button type="reset" id="reset-btn"class="button">Reset</button>
+            </div>
+          </div>
+          <div id="formsentmessage" class="hiddenmessage">
+            <p>Your query has been submitted to Sustainable Foods, Yorkshire</p>
+          </div>
+        </fieldset>
+      </form>
     </div>
   </div>
-  </body>
-  <script>
-  document.getElementById("submit-btn").addEventListener("click",FormSubmitted);
-  function FormSubmitted(e){
-e.preventDefault ()
-document.getElementById("formsentmessage").classList.remove("hiddenmessage");
-document.getElementById("contactfieldset").classList.add("hiddenmessage");
+  <div class="icon-bar">
+    Copyright (c) Girls Fawkes 2018.  All Rights Reserved.
+    <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.pinterest.com" class="pinterest"><i class="fa fa-pinterest"></i></a>
+  </div>
+</body>
+<script>
+document.getElementById("submit-btn").addEventListener("click",FormSubmitted);
+function FormSubmitted(e){
+  e.preventDefault ()
+  document.getElementById("formsentmessage").classList.remove("hiddenmessage");
+  document.getElementById("contactfieldset").classList.add("hiddenmessage");
 
-    /*alert("Your query has been submitted to Sustainable Foods, Yorkshire")*/
-  }
- </script>
+  /*alert("Your query has been submitted to Sustainable Foods, Yorkshire")*/
+}
+</script>
 </html>
