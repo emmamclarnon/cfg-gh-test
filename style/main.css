@@ -204,6 +204,22 @@ img {
 
 
   }
+  .inkwell a{
+    margin: 75px;
+    color: grey;
+    font-size: 24px;
+    font-weight: bolder;
+
+  }
+  .nichols a{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 75px;
+    color: grey;
+    font-size: 24px;
+    font-weight: bolder;
+
+  }
   .contact-us {
     text-align: center;
   }
