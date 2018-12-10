@@ -46,15 +46,16 @@
     <div class="contact-form">
     <form name="contact" action"">
       <fieldset>
+        <div id="contactfieldset">
         <div class="inputname">
           <p>Name</p>
-          <input type="text" name="firstname" id="firstname" size="30" value="" placeholder="Your first name..">
-          <input type="text" name="lastname" id="lastname" size="30" value="" placeholder="Your last name..">
+          <input class="formname" type="text" name="firstname" id="firstname" value="" placeholder="Your first name..">
+          <input class="formname" type="text" name="lastname" id="lastname" value="" placeholder="Your last name..">
           <br><br>
         </div>
         <div class="inputemail">
         <p>Email</p>
-        <input type="email" name="email" id="email" size="76" value="" placeholder="Your email address..">
+        <input class="formemail" type="email" name="email" id="email" size="76" value="" placeholder="Your email address..">
         <br><br>
         </div>
         <div class="formdropdown">
@@ -68,20 +69,31 @@
         </div>
         <br><br>
         <div class="formtextarea">
-        <textarea name="message" id="textarea" placeholder="type your message here" rows="10" cols="66">
+        <textarea class="typemessage" name="message" id="textarea" placeholder="type your message here" rows="10" cols="66">
         </textarea>
         </div>
         <br><br>
         <div class="formsubmit">
-        <button type="submit" id"submit-btn" class="button">Submit</button>
-        <button type="reset" id"reset-btn"class="button">Reset</button>
+        <button type="submit" id="submit-btn" class="button">Submit</button>
+        <button type="reset" id="reset-btn"class="button">Reset</button>
         </div>
+      </div>
+      <div id="formsentmessage" class="hiddenmessage">
+        <p>Your query has been submitted to Sustainable Foods, Yorkshire</p>
+      </div>
       </fieldset>
     </form>
     </div>
   </div>
   </body>
   <script>
-  $("#submit-btn").submit();
+  document.getElementById("submit-btn").addEventListener("click",FormSubmitted);
+  function FormSubmitted(e){
+e.preventDefault ()
+document.getElementById("formsentmessage").classList.remove("hiddenmessage");
+document.getElementById("contactfieldset").classList.add("hiddenmessage");
+
+    /*alert("Your query has been submitted to Sustainable Foods, Yorkshire")*/
+  }
  </script>
 </html>

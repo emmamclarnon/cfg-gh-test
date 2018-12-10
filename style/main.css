@@ -157,17 +157,20 @@ img {
 .contact-us {
   text-align: center;
 }
-.inputname input {
+  .formname {
+    width: 45%;
     max-width: 100%;
     padding: 10px 30px;
   }
-.inputemail input {
+.formemail {
+  width: 95%;
   max-width: 100%;
   padding: 10px 30px;
 }
-.formtextarea textarea {
+.typemessage {
+  width: 95%;
   max-width: 100%;
-  padding: 10px 50px;
+  padding: 10px 30px;
 }
 article {
   max-width: 100%;
@@ -185,6 +188,10 @@ article {
     margin-top: 20px;
     font-weight: bold;
     height: 44px;
+}
+.hiddenmessage {
+  visibility: hidden;
+  display: none;
 }
 @media (max-width: 500px) {
   body {
