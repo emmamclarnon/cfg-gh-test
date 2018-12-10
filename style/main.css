@@ -144,60 +144,60 @@ img {
     margin: 75px;
     font-size:24px;
   }
-.rest_header header{
-  margin: 75px;
-  font-size: 30px;
-  font-weight: bold;
-}
-.rest_header p{
-  margin:75px;
-  color: white;
-  font-size: 16px;
-}
-.contact-us {
-  text-align: center;
-}
+  .rest_header header{
+    margin: 75px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .rest_header p{
+    margin:75px;
+    color: white;
+    font-size: 16px;
+  }
+  .contact-us {
+    text-align: center;
+  }
   .formname {
     width: 45%;
-    max-width: 100%;
-    padding: 10px 30px;
+    padding: 10px
   }
-.formemail {
-  width: 95%;
-  max-width: 100%;
-  padding: 10px 30px;
-}
-.typemessage {
-  width: 95%;
-  max-width: 100%;
-  padding: 10px 30px;
-}
-article {
-  max-width: 100%;
-}
-.sansnav img {
-  border-radius: 20px;
-  max-width: 100%;
-}
-.sansnav {
-  margin: 0px auto;
-  padding: 30px;
-}
-.formsubmit button {
+  .formemail {
+    width: 92%;
+    padding: 10px
+  }
+  .typemessage {
+    width: 50%;
+  }
+  article {
+    max-width: 100%;
+  }
+  .sansnav img {
+    border-radius: 20px;
+    max-width: 100%;
+  }
+  .sansnav {
+    margin: 0px auto;
+    padding: 30px;
+  }
+  .formsubmit button {
     padding: 10px 50px;
     margin-top: 20px;
     font-weight: bold;
     height: 44px;
-}
-.hiddenmessage {
-  visibility: hidden;
-  display: none;
-}
-@media (max-width: 500px) {
-  body {
-    background-color: red;
   }
-  h1 {
-        font-size: 36px;
-      }
-}
+  .hiddenmessage {
+    visibility: hidden;
+    display: none;
+  }
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 36px;
+    }
+    .contactfieldset {
+      max-width: 400px;
+    }
+
+    .formemail {
+      width: auto;
+    }
+  }
